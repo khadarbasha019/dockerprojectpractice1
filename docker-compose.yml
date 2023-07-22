@@ -1,0 +1,22 @@
+version: '3'
+services:
+  khadar:
+    image: khadarbasha019/khadarking:latest
+    ports:
+      - "91:80"
+      deploy:
+      replicas: 3
+    
+  shaheen:
+    image: khadarbasha019/shaheenqueen:latest
+    ports:
+      - "92:80"
+    deploy:
+      replicas: 3
+  sana:
+    image: khadarbasha019/sanababy:latest
+    ports:
+      - "93:80"
+    deploy:
+      replicas: 3
+  
