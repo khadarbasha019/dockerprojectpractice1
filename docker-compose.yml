@@ -3,20 +3,22 @@ services:
   khadar:
     image: khadarbasha019/khadarking:latest
     ports:
-      -"98:80"
+      - "101:80"
     deploy:
       replicas: 3
-    
-  shaheen:
+
+  saheen:
     image: khadarbasha019/shaheenqueen:latest
     ports:
-      -"99:80"
+      - "102:80"
     deploy:
       replicas: 3
+
   sana:
     image: khadarbasha019/sanababy:latest
     ports:
-      -"100:80"
+      - "103:80"
     deploy:
       replicas: 3
+
   
